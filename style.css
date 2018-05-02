@@ -1,0 +1,124 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+body {
+  background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ -color: rgb(200, 200, 200, 0.7);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: rgb(20, 20, 20, 0.8);
+  line-height: 1.6em;
+}
+
+tbody p {
+  text-align: left
+}
+
+h1, h2, h3 {
+  color: #C06C84;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.7  em;
+}
+
+table img {
+  width: 60%;
+}
+
+table {
+  margin: 35px 0px;
+}
+
+.btn-purple {
+  background-color: #C06C84;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.btn-purple:hover {
+  background-color: #355C7D;
+  color: white;
+}
+
+#intro_img {
+  width: 20%;
+  border: 3px solid #cccccc;
+}
+
+.img_circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(20, 20, 20, 0.4);
+}
+a:hover {
+  color:#C06C84 ;
+}
+
+i{
+  padding: 10px;
+}
+
+.card table p {
+  padding: 5px 25px;
+}
+
+.card table img {
+  padding: 0px;
+}
+
+.card {
+  margin: 10px 25px;
+  padding: 30px 55px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border: 1px solid lightgrey;
+}
+
+.container {
+  margin: 0px auto;
+  padding: 0px 20%;
+  max-width: 1500px;
+  background: #355C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    max-width: 900px;
+    padding: 10%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    max-width: 700px;
+    padding: 5%;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    max-width: 500px;
+    padding: 2.5%;
+  }
+}
